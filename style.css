@@ -512,6 +512,9 @@ main .recent-order a {
     font-weight: 600;
 }
 
+
+
+
 /*======================MEDIA QUERIES ==================*/
 @media screen and (max-width: 1200px){
    .container{
@@ -613,6 +616,9 @@ main .recent-order a {
         }
         
     }
+    #menu-btn{
+        color: var(--color-dark-variant);
+    }
 
     aside .logo {
         display:inline;
@@ -634,6 +640,7 @@ main .recent-order a {
     aside .close{
         display: inline-block;
         cursor: pointer;
+        color: var(--color-dark-variant);
     }
     
     main .insights svg{
@@ -686,6 +693,8 @@ main .recent-order a {
         width: 4.4rem;
         position: absolute;
         left: 66%;
+        color: var(--color-dark-variant);
+
     }
   
   
